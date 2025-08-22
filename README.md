@@ -1,6 +1,6 @@
 Here’s a tight recap of the **exact TinyLlama architecture changes** we made for CBT so the training script can “see” and penalize redundant heads:
 
-# What we changed (and where)
+# What we changed (and where) -> CBTtinyllamaMod
 
 1. LlamaAttention.forward — **surface raw attention weights**
 
